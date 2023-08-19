@@ -1,0 +1,126 @@
+{
+  "contracts": {
+    "ERC20": "5d7c53ac75579876ffbfb61e35f275d9402a5cc6",
+    "MyToken": "cbf985d340f33a602ce113bb9520885f8018eed7"
+  },
+  "tests": {
+    "tests/test_basics.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "...",
+      "sha1": "29a701d127a14c2a0506376dffd920475582db12",
+      "txhash": []
+    },
+    "tests/test_burn.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "e95b54957c50c9d66c0ce0390eda6d162644ddd5",
+      "txhash": [
+        "f2a87eccaadeafb697294378ec5fe6ced19abd07"
+      ]
+    },
+    "tests/test_mint.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..",
+      "sha1": "6bf91467d144690fb31284d9b1db503d256015ac",
+      "txhash": [
+        "48ef0c4586c504722b0d172b2685c9a7f76c574c",
+        "9df08ee44a9e3535e45443364f3fea02e6445bc6"
+      ]
+    },
+    "tests/test_tricky_initialize.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..",
+      "sha1": "d2d8a5dcb7347c8fca4f58ddbf37ae054e9cc18d",
+      "txhash": []
+    }
+  },
+  "tx": {
+    "48ef0c4586c504722b0d172b2685c9a7f76c574c": {
+      "MyToken": {
+        "0": [
+          [
+            12
+          ],
+          [
+            48
+          ],
+          []
+        ],
+        "1": [
+          [
+            36
+          ],
+          [],
+          [
+            61
+          ]
+        ],
+        "2": [
+          [],
+          [],
+          []
+        ],
+        "5": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "9df08ee44a9e3535e45443364f3fea02e6445bc6": {
+      "MyToken": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "1": [
+          [
+            36
+          ],
+          [
+            61
+          ],
+          []
+        ],
+        "5": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "f2a87eccaadeafb697294378ec5fe6ced19abd07": {
+      "MyToken": {
+        "0": [
+          [
+            14
+          ],
+          [],
+          []
+        ],
+        "2": [
+          [
+            41,
+            42
+          ],
+          [
+            59
+          ],
+          [
+            58
+          ]
+        ],
+        "5": [
+          [],
+          [],
+          []
+        ]
+      }
+    }
+  }
+}
